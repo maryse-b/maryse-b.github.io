@@ -1,18 +1,46 @@
+* {padding: 0;
+margin:0;}
+
 body {
 	background-color:fff;
 	font-family: Arial, sans-serif;
-	color: #000;
+  font-size:18px;
+  line-height: 1.5em;
+	color: #222;
 }
 
-a:link { 
+header {
+  padding:10px;
+
+}
+
+a { 
 	color: #005646; 
 	text-decoration:none;
 }
-a:hover { text-decoration: underline; }
 
+a:hover { 
+  text-decoration: underline; 
+}
+
+nav a {
+
+}
+
+main, footer {
+  padding: 20px;
+}
 
 ul {
     list-style-type: none;
+}
+
+footer {
+  background-color:#dee0e2;
+}
+
+h1,h2,h3 {
+  margin:15px 0px 5px 0px;
 }
 
 .home-hero {

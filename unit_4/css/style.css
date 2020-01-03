@@ -93,7 +93,7 @@ footer {
 }
 
 .home-hero-content {
-   padding: 20px;
+   padding: 1.1em;
    border: 0px solid rgba(255,255,255,0.2);
    border-radius: 6px;
    max-width:30em;
@@ -114,13 +114,17 @@ footer {
       border-bottom: 0px;
 }
 
+.home-hero-content h1 {
+      margin: 0em;
+}
+
 
 
 .feedback {
     background-color: #005646;
     color: #ffffff;
     padding: .25em .7em;
-  
+
 }
 
 .feedback a:link {

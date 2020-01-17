@@ -266,9 +266,11 @@ font-size: 1.5em;
   height:0;
 }
 
+
+
+
 @media only screen and (max-width:1024px)
 {
-
   .wrapper {
   width:auto;
   padding:1.3em;

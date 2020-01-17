@@ -271,7 +271,7 @@ font-size: 1.5em;
 
   .wrapper {
   width:auto;
-  padding:1em;
+  padding:1.3em;
 }
 
 .home-top .wrapper {
@@ -286,4 +286,13 @@ font-size: 1.5em;
   float:none;
   text-align:center;
 } 
+
+
+footer .wrapper {
+  padding-top:0;
+}
+
+footer {
+  padding:0;
+}
 }

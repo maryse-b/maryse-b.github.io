@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-
 body {
 	font-family: 'Roboto', sans-serif;
   font-size:17px; /* 1em = 17px*/
@@ -27,8 +26,7 @@ a {
 
 a:hover { 
   text-decoration: none;
-  border-bottom: 2px solid;
-  padding-bottom: 1px;
+  border-bottom: .1em solid;
 }
 
 header {
@@ -53,19 +51,10 @@ header a {
 
 footer {
   background-color: #e0e0e0;
-  padding: 0 20px 20px 20px;
-  border-top: 5px solid #005646;
+  padding: 0 1em 1em 1em;
+  border-top: .3em solid #005646;
 
 }
-
-
-
-/*div, section {
-  background-color: #FFE2B8;
-  border: 1px black solid;
-  padding: 20px;
-}*/
-
 
 h1,h2,h3 {
   margin:0.6em 0em;
@@ -81,19 +70,13 @@ h2 {
 
 h3 {
   font-size: 1.2em;
-
 }
-
-
-
 
 .wrapper {
   max-width: 1000px;
   margin:0 auto;
 
 }
-
-
 
 .home-top {
 
@@ -107,26 +90,11 @@ h3 {
 
 }
 
-
-
 .home-top-left {
-   padding: 1.1em;
-   border-radius: 6px;
+   padding: 1.1em .5em;
    max-width:36em;
    float:left;   
 
-}
-
-
-.home-top-left a:link {
-   font-weight:bold;
-   text-decoration: none;
-   border-bottom: 2px solid;
-   padding-bottom: 1px;
-}
-
-.home-top-left a:hover {
-      border-bottom: 0px;
 }
 
 .home-top-left h1 {
@@ -148,10 +116,10 @@ h3 {
 
 .home-top-left input[type=text] {
   float: left;
-  padding: 8px;
+  padding: .32em;
   border: none;
-  margin-right: 16px;
-  border-radius:3px;
+  margin-right: .5em;
+  border-radius:.1em;
   width:70%;
   font-size:1.5em;
 
@@ -160,11 +128,11 @@ h3 {
 .home-top-left button {
   float: left;
   width: 20%;
-  padding: 13px;
+  padding: .75em;
   background: #000;
   color: white;
-  border: 0px;
-border-radius:3px;
+  border: 0;
+border-radius:.2em;
   cursor: pointer;
   font-size:1em;
 }
@@ -178,7 +146,8 @@ border-radius:3px;
   float:right;
   background-color: #005646;
   padding: 1em 3em 1em 1em;
-  border-radius: 5px;
+  border-radius: .4em;
+  margin-top:2em;
 }
 
 .home-top-right h2 {
@@ -187,12 +156,12 @@ border-radius:3px;
   color:#fff;
 }
 
-.home-top-right a {
-   border-bottom: 2px solid;
-  padding-bottom: 1px;
+.home-top-right a, .feedback a {
+   border-bottom: .1em solid;
+   color:#fff;
 }
 
-.home-top-right a:hover {
+.home-top-right a:hover, .feedback a:hover {
    color:#CCC;
 }
 
@@ -206,17 +175,14 @@ border-radius:3px;
   line-height: 1.5em;
 }
 
-
-
 .home-main img, .home-news img, .home-other img {
   width:100%;
 
 }
 
 .home-news h2 {
-  margin-left:1%;
+  margin-left:.25em;
   margin-bottom:0.2em;
-
 }
 
 .home-news h3 {
@@ -233,15 +199,22 @@ border-radius:3px;
 .column {
   float: left;
   width: 31.33%;
-  margin: 5px 1% 20px 1%;
+  margin: 1em .5em;
 
 }
-
 
 .block {
    padding:3em 1.5em;
   text-align: center;
+  margin-top:0;
 }
+
+
+.block a {
+ color:#fff;
+font-size: 1.5em;
+}
+
 
 .block-blue {
   background:#00688B;
@@ -260,30 +233,10 @@ border-radius:3px;
 
 }
 
-.block-blue a, .block-brown a, .block-green a {
- color:#fff;
-font-size: 1.5em;
-
-}
-
-
-
 .feedback {
     background-color: #005646;
     color: #ffffff;
     padding: .25em .7em;
-
-}
-
-.feedback a {
-    color: #fff; 
-	  text-decoration: none;
-    border-bottom: 2px solid;
-    padding-bottom:1px;
-}
-
-.feedback a:hover {
-    border-bottom: 0px;
 }
 
 .copyright {
@@ -295,18 +248,14 @@ font-size: 1.5em;
  color:#fff;
 }
 
-
 .legal {
   float:left;
-
-
 }
 
 .language {
   float:right;
 
 }
-
 
 .clearfix:after {
   display:block;
@@ -315,4 +264,23 @@ font-size: 1.5em;
   font-size:0;
   visibility: hidden;
   height:0;
+}
+
+@media only screen and (max-width:1024px)
+{
+
+  .wrapper {
+  max-width: 95%;
+
+
+}
+.column, .home-top-left, .home-top-right {
+  float:none;
+  width:auto;
+
+}
+.legal, .language {
+  float:none;
+  text-align:center;
+} 
 }

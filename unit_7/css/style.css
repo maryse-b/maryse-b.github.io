@@ -270,9 +270,12 @@ font-size: 1.5em;
 {
 
   .wrapper {
-  max-width: 95%;
+  width:auto;
+  padding:1em;
+}
 
-
+.home-top .wrapper {
+  padding:0;
 }
 .column, .home-top-left, .home-top-right {
   float:none;

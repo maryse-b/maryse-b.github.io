@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i|Roboto&display=swap');
+
+
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+  font-size:17px; /* 1em = 17px*/
+	color: #222;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+
+a { 
+	color: #005646; 
+	text-decoration:none;
+}
+
+a:hover { 
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 1px;
+}
+
+header {
+  background-color: #005646;
+  padding:1em;
+}
+
+header img {
+  max-width:150px;
+  float:left;
+}
+
+header p {
+  float:right;
+  font-size:.8em;
+}
+
+header a {
+  color:#fff;
+}
+
+
+footer {
+  background-color: #e0e0e0;
+  padding: 0 20px 20px 20px;
+  border-top: 5px solid #005646;
+
+}
+
+
+
+/*div, section {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}*/
+
+
+h1,h2,h3 {
+  margin:0.6em 0em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.2em;
+
+}
+
+
+
+
+.wrapper {
+  max-width: 1000px;
+  margin:0 auto;
+
+}
+
+
+
+.home-top {
+
+  background-image: linear-gradient(to right, rgba(0,86,70,0.95), rgba(0,0,0,0)), url(../images/home-hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 2em;
+  height:500px;
+  border-bottom: .8em solid #95cc48;
+
+}
+
+
+
+.home-top-left {
+   padding: 1.1em;
+   border-radius: 6px;
+   max-width:36em;
+   float:left;   
+
+}
+
+
+.home-top-left a:link {
+   font-weight:bold;
+   text-decoration: none;
+   border-bottom: 2px solid;
+   padding-bottom: 1px;
+}
+
+.home-top-left a:hover {
+      border-bottom: 0px;
+}
+
+.home-top-left h1 {
+      font-family:'Raleway', 'sans-serif';
+      margin: 0em;
+      color:#fff;
+      font-size:3em;
+      padding-bottom: 1em;
+}
+
+.home-top-left h2 {
+  font-family:'Raleway', 'sans-serif';
+      margin: 0em;
+      font-weight: 100;
+      color:#fff;
+      font-size:2em;
+      padding-bottom:1em;
+}
+
+.home-top-left input[type=text] {
+  float: left;
+  padding: 8px;
+  border: none;
+  margin-right: 16px;
+  border-radius:3px;
+  width:70%;
+  font-size:1.5em;
+
+}
+
+.home-top-left button {
+  float: left;
+  width: 20%;
+  padding: 13px;
+  background: #000;
+  color: white;
+  border: 0px;
+border-radius:3px;
+  cursor: pointer;
+  font-size:1em;
+}
+
+.home-top-left button:hover {
+  background: #005646;
+}
+
+
+.home-top-right {
+  float:right;
+  background-color: #005646;
+  padding: 1em 3em 1em 1em;
+  border-radius: 5px;
+}
+
+.home-top-right h2 {
+  margin:0;
+  padding:0;
+  color:#fff;
+}
+
+.home-top-right a {
+   border-bottom: 2px solid;
+  padding-bottom: 1px;
+}
+
+.home-top-right a:hover {
+   color:#CCC;
+}
+
+.home-top ul, nav ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+.home-main h3 {
+  padding-top:0.8em;
+  line-height: 1.5em;
+}
+
+
+
+.home-main img, .home-news img, .home-other img {
+  width:100%;
+
+}
+
+.home-news h2 {
+  margin-left:1%;
+  margin-bottom:0.2em;
+
+}
+
+.home-news h3 {
+  line-height: 1.5em;
+}
+
+.home-divider {
+  border:none;
+  height: 0.2em;
+  background-color: #005646;
+  margin:1em .5em;
+}
+
+.column {
+  float: left;
+  width: 31.33%;
+  margin: 5px 1% 20px 1%;
+
+}
+
+
+.block {
+   padding:3em 1.5em;
+  text-align: center;
+}
+
+.block-blue {
+  background:#00688B;
+
+
+}
+
+.block-brown {
+  background:#403421;
+
+
+}
+
+.block-green {
+  background:#008068;
+
+}
+
+.block-blue a, .block-brown a, .block-green a {
+ color:#fff;
+font-size: 1.5em;
+
+}
+
+
+
+.feedback {
+    background-color: #005646;
+    color: #ffffff;
+    padding: .25em .7em;
+
+}
+
+.feedback a {
+    color: #fff; 
+	  text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom:1px;
+}
+
+.feedback a:hover {
+    border-bottom: 0px;
+}
+
+.copyright {
+  background-color:#005646;
+  padding:1em;
+}
+
+.copyright p, .copyright a {
+ color:#fff;
+}
+
+
+.legal {
+  float:left;
+
+
+}
+
+.language {
+  float:right;
+
+}
+
+
+.clearfix:after {
+  display:block;
+  content:"";
+  clear:both;
+  font-size:0;
+  visibility: hidden;
+  height:0;
+}

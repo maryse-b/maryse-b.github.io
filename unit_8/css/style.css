@@ -433,3 +433,21 @@ font-size: 1.5em;
 
 }
 
+
+@media only screen and (max-width:450px)
+{
+
+
+  .home-top-left input[type=text] {
+    width:50%;
+  }
+
+
+.home-top-left button {
+   
+    width: 30%;
+  }
+
+
+}
+
